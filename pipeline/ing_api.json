@@ -1,0 +1,27 @@
+{
+	"name": "ing_api",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "var",
+					"value": "abc"
+				}
+			}
+		],
+		"variables": {
+			"var": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
