@@ -1,0 +1,27 @@
+{
+	"name": "DS_SOURCE_COPYDATA",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_COPYDATA",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Relative_url": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "@dataset().Relative_url",
+					"type": "Expression"
+				}
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

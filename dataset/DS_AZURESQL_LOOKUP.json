@@ -1,0 +1,13 @@
+{
+	"name": "DS_AZURESQL_LOOKUP",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AZURESQL_LOOKUP",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

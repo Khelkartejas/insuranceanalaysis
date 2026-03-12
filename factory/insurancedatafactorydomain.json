@@ -1,0 +1,9 @@
+{
+	"name": "insurancedatafactorydomain",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3103a632-a001-4f0d-82d6-9ac0a8ffdf53",
+		"tenantId": "7cb1806e-d238-4110-831a-f181a2f5d7dd"
+	}
+}
